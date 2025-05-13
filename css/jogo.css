@@ -83,7 +83,7 @@ header {
 /* Estilos responsivos para mobile */
 @media (max-width: 600px) {
     .grelha {
-        grid-template-columns: repeat(4, 5fr);
+        grid-template-columns: repeat(4, 1fr);
         max-width: 90vw;
         gap: 20px;
     }
