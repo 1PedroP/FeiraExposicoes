@@ -1,4 +1,12 @@
-
+/* Estilos base */
+* {
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+    border: none;
+    font-family: 'Press Start 2P', cursive;
+    margin-left: 0;
+}
 
 /* Layout principal */
 main {
@@ -80,12 +88,12 @@ header {
     opacity: 0.5;
 }
 
-/* Estilos responsivos para mobile */
+/* Estilos responsivos para mobile: grade 4x5 */
 @media (max-width: 600px) {
     .grelha {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(4, 1fr); /* 4 colunas */
         max-width: 90vw;
-        gap: 20px;
+        gap: 12px;
     }
 
     .carta {
