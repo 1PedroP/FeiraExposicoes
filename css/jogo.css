@@ -101,6 +101,7 @@ header {
 
     .carta {
         width: 100%;
+         aspect-ratio: 2 / 3;
     }
 
     main {
