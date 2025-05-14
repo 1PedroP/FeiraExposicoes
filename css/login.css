@@ -1,8 +1,3 @@
-@media (max-width: 600px) {
-    .login-header img {
-        text-align: center;
-        width: 100%;
-    }
 .login-form {
     align-items: center;
     display: flex;
@@ -21,15 +16,16 @@
 
 .login-header img {
     width: 500px;
-   
 }
+
 .login-header h1 {
     font-size: 2rem;
     margin-top: 10px;
     color: #333;
 }
 
-.login-input { border: 2px solid #333;
+.login-input {
+    border: 2px solid #333;
     border-radius: 8px;
     color: #333;
     font-size: 1em;
@@ -38,11 +34,10 @@
     outline: none;
     width: 100%;
     padding: 15px;
-
 }
 
 .login-button {
-    background-color:#ee665c ;
+    background-color: #ee665c;
     border-radius: 8px;
     padding: 15px;
     cursor: pointer;
@@ -51,11 +46,20 @@
     max-width: 100px;
     width: 100%;
     font-weight: bold;
-   
 }
 
-
-.login-button:disabled{
+.login-button:disabled {
     background-color: #eee;
     color: #aaa;
-    cursor: auto;}
+    cursor: auto;
+}
+@media (max-width: 600px) {
+    .login-header img {
+        width: 100%; /* Imagem ocupa toda a largura da tela */
+        text-align: center;
+    }
+
+    .login-form {
+        padding: 10px; /* Espaço interno opcional para evitar encostar nas bordas */
+    }
+}
